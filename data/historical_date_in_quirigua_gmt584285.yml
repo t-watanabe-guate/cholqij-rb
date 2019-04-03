@@ -2,208 +2,260 @@
 - long_count: 8.19.10.10.17
   tzolkin: 5Kaban
   haab: 15Yaxk'in
-  modern: '0426-09-03'
+  gregorian: '0426-09-06'
+  julian: '0426-09-05'
 - long_count: 8.19.10.11.0
   tzolkin: 8Ajaw
   haab: 18Yaxk'in
-  modern: '0426-09-06'
+  gregorian: '0426-09-09'
+  julian: '0426-09-08'
 - long_count: 9.1.0.0.0
   tzolkin: 6Ajaw
   haab: 13Yaxk'in
-  modern: '0455-08-25'
+  gregorian: '0455-08-28'
+  julian: '0455-08-27'
 - long_count: 9.2.5.0.0
   tzolkin: 10Ajaw
   haab: 8Pop
-  modern: '0480-04-15'
+  gregorian: '0480-04-18'
+  julian: '0480-04-17'
 - long_count: 9.2.5.11.0
   tzolkin: 9Ajaw
   haab: 8Keh
-  modern: '0480-11-21'
+  gregorian: '0480-11-24'
+  julian: '0480-11-23'
 - long_count: 9.2.18.13.1
   tzolkin: 11Imix
   haab: 4Sak
-  modern: '0493-10-25'
+  gregorian: '0493-10-28'
+  julian: '0493-10-27'
 - long_count: 9.2.18.13.10
   tzolkin: 7Ok
   haab: 13Sak
-  modern: '0493-11-03'
+  gregorian: '0493-11-06'
+  julian: '0493-11-05'
 - long_count: 9.3.0.0.0
   tzolkin: 2Ajaw
   haab: 18Muwan
-  modern: '0495-01-27'
+  gregorian: '0495-01-30'
+  julian: '0495-01-29'
 - long_count: 9.5.7.0.0
   tzolkin: 9Ajaw
   haab: 3Sots
-  modern: '0541-05-25'
+  gregorian: '0541-05-29'
+  julian: '0541-05-27'
 - long_count: 9.11.0.0.0
   tzolkin: 12Ajaw
   haab: 8Keh
-  modern: '0652-10-09'
+  gregorian: '0652-10-14'
+  julian: '0652-10-11'
 - long_count: 9.11.0.11.11
   tzolkin: 9Chuwen
   haab: 14Sek
-  modern: '0653-05-28'
+  gregorian: '0653-06-02'
+  julian: '0653-05-30'
 - long_count: 9.13.0.0.0
   tzolkin: 8Ajaw
   haab: 8Wo
-  modern: '0692-03-13'
+  gregorian: '0692-03-18'
+  julian: '0692-03-15'
 - long_count: 9.14.13.4.17
   tzolkin: 12Kaban
   haab: 5K'ayab
-  modern: '0724-12-27'
+  gregorian: '0725-01-02'
+  julian: '0724-12-29'
 - long_count: 9.15.0.0.0
   tzolkin: 4Ajaw
   haab: 13Yax
-  modern: '0731-08-16'
+  gregorian: '0731-08-22'
+  julian: '0731-08-18'
 - long_count: 9.15.3.2.0
   tzolkin: 6Ajaw
   haab: 18Sak
-  modern: '0734-09-09'
+  gregorian: '0734-09-15'
+  julian: '0734-09-11'
 - long_count: 9.15.5.0.0
   tzolkin: 10Ajaw
   haab: 8Che'n
-  modern: '0736-07-20'
+  gregorian: '0736-07-26'
+  julian: '0736-07-22'
 - long_count: 9.15.6.14.0
   tzolkin: 13Ajaw
   haab: 18Sots
-  modern: '0738-04-21'
+  gregorian: '0738-04-27'
+  julian: '0738-04-23'
 - long_count: 9.15.6.14.6
   tzolkin: 6Kimi
   haab: 4Sek
-  modern: '0738-04-27'
+  gregorian: '0738-05-03'
+  julian: '0738-04-29'
 - long_count: 9.15.10.0.0
   tzolkin: 3Ajaw
   haab: 3Mol
-  modern: '0741-06-24'
+  gregorian: '0741-06-30'
+  julian: '0741-06-26'
 - long_count: 9.15.15.0.0
   tzolkin: 9Ajaw
   haab: 18Xul
-  modern: '0746-05-29'
+  gregorian: '0746-06-04'
+  julian: '0746-05-31'
 - long_count: 9.15.17.9.5
   tzolkin: 4Chickchan
   haab: 13Muwan
-  modern: '0748-11-19'
+  gregorian: '0748-11-25'
+  julian: '0748-11-21'
 - long_count: 9.16.0.0.0
   tzolkin: 2Ajaw
   haab: 13Sek
-  modern: '0751-05-03'
+  gregorian: '0751-05-09'
+  julian: '0751-05-05'
 - long_count: 9.16.11.3.1
   tzolkin: 6Imix
   haab: 19Sek
-  modern: '0762-05-06'
+  gregorian: '0762-05-12'
+  julian: '0762-05-08'
 - long_count: 9.16.13.4.17
   tzolkin: 8Kaban
   haab: 5Yaxk'in
-  modern: '0764-05-31'
+  gregorian: '0764-06-06'
+  julian: '0764-06-02'
 - long_count: 9.16.15.0.0
   tzolkin: 7Ajaw
   haab: 18Pop
-  modern: '0766-02-13'
+  gregorian: '0766-02-19'
+  julian: '0766-02-15'
 - long_count: 9.17.0.0.0
   tzolkin: 13Ajaw
   haab: 18Kumk'u
-  modern: '0771-01-18'
+  gregorian: '0771-01-24'
+  julian: '0771-01-20'
 - long_count: 9.17.4.10.12
   tzolkin: 1Eb
   haab: 5Yax
-  modern: '0775-07-28'
+  gregorian: '0775-08-03'
+  julian: '0775-07-30'
 - long_count: 9.17.4.11.0
   tzolkin: 9Ajaw
   haab: 13Yax
-  modern: '0775-08-05'
+  gregorian: '0775-08-11'
+  julian: '0775-08-07'
 - long_count: 9.17.5.0.0
   tzolkin: 6Ajaw
   haab: 13K'ayab
-  modern: '0775-12-23'
+  gregorian: '0775-12-29'
+  julian: '0775-12-25'
 - long_count: 9.17.7.8.7
   tzolkin: 9Manik'
   haab: 5Yaxk'in
-  modern: '0778-05-28'
+  gregorian: '0778-06-03'
+  julian: '0778-05-30'
 - long_count: 9.17.10.0.0
   tzolkin: 12Ajaw
   haab: 8Pax
-  modern: '0780-11-26'
+  gregorian: '0780-12-02'
+  julian: '0780-11-28'
 - long_count: 9.17.12.7.8
   tzolkin: 9Lamat
   haab: 1Sek
-  modern: '0783-04-13'
+  gregorian: '0783-04-19'
+  julian: '0783-04-15'
 - long_count: 9.17.14.13.0
   tzolkin: 9Ajaw
   haab: 3Yax
-  modern: '0785-07-23'
+  gregorian: '0785-07-29'
+  julian: '0785-07-25'
 - long_count: 9.17.14.13.2
   tzolkin: 11I'k
   haab: 5Yax
-  modern: '0785-07-25'
+  gregorian: '0785-07-31'
+  julian: '0785-07-27'
 - long_count: 9.17.14.13.12
   tzolkin: 8Eb
   haab: 15Yax
-  modern: '0785-08-04'
+  gregorian: '0785-08-10'
+  julian: '0785-08-06'
 - long_count: 9.17.14.16.18
   tzolkin: 9Etz'nab
   haab: 1K'ank'in
-  modern: '0785-10-09'
+  gregorian: '0785-10-15'
+  julian: '0785-10-11'
 - long_count: 9.17.15.0.0
   tzolkin: 5Ajaw
   haab: 3Muwan
-  modern: '0785-10-31'
+  gregorian: '0785-11-06'
+  julian: '0785-11-02'
 - long_count: 9.17.15.6.9
   tzolkin: 4Muluk
   haab: 7Sip
-  modern: '0786-03-09'
+  gregorian: '0786-03-15'
+  julian: '0786-03-11'
 - long_count: 9.17.15.6.17
   tzolkin: 12Kaban
   haab: 15Sip
-  modern: '0786-03-17'
+  gregorian: '0786-03-23'
+  julian: '0786-03-19'
 - long_count: 9.17.15.6.18
   tzolkin: 13Etz'nab
   haab: 16Sip
-  modern: '0786-03-18'
+  gregorian: '0786-03-24'
+  julian: '0786-03-20'
 - long_count: 9.17.15.6.19
   tzolkin: 1Kawak
   haab: 17Sip
-  modern: '0786-03-19'
+  gregorian: '0786-03-25'
+  julian: '0786-03-21'
 - long_count: 9.17.15.7.0
   tzolkin: 2Ajaw
   haab: 18Sip
-  modern: '0786-03-20'
+  gregorian: '0786-03-26'
+  julian: '0786-03-22'
 - long_count: 9.17.16.0.4
   tzolkin: 5Kan
   haab: 2Muwan
-  modern: '0786-10-30'
+  gregorian: '0786-11-05'
+  julian: '0786-11-01'
 - long_count: 9.17.16.0.11
   tzolkin: 12Chuwen
   haab: 9Muwan
-  modern: '0786-11-06'
+  gregorian: '0786-11-12'
+  julian: '0786-11-08'
 - long_count: 9.17.16.7.4
   tzolkin: 2Kan
   haab: 17Sip
-  modern: '0787-03-19'
+  gregorian: '0787-03-25'
+  julian: '0787-03-21'
 - long_count: 9.17.19.9.15
   tzolkin: 2Men
   haab: 13Sek
-  modern: '0790-04-23'
+  gregorian: '0790-04-29'
+  julian: '0790-04-25'
 - long_count: 9.18.0.0.0
   tzolkin: 11Ajaw
   haab: 18Mak
-  modern: '0790-10-05'
+  gregorian: '0790-10-11'
+  julian: '0790-10-07'
 - long_count: 9.18.5.0.0
   tzolkin: 4Ajaw
   haab: 13Keh
-  modern: '0795-09-09'
+  gregorian: '0795-09-15'
+  julian: '0795-09-11'
 - long_count: 9.18.10.0.0
   tzolkin: 10Ajaw
   haab: 8Sak
-  modern: '0800-08-13'
+  gregorian: '0800-08-19'
+  julian: '0800-08-15'
 - long_count: 9.18.15.0.0
   tzolkin: 3Ajaw
   haab: 3Yax
-  modern: '0805-07-18'
+  gregorian: '0805-07-24'
+  julian: '0805-07-20'
 - long_count: 9.18.19.16.0
   tzolkin: 8Ajaw
   haab: 18Xul
-  modern: '0810-05-13'
+  gregorian: '0810-05-19'
+  julian: '0810-05-15'
 - long_count: 9.19.0.0.0
   tzolkin: 9Ajaw
   haab: 18Mol
-  modern: '0810-06-22'
+  gregorian: '0810-06-28'
+  julian: '0810-06-24'

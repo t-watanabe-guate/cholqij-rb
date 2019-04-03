@@ -78,7 +78,12 @@ class Cholqij
       "#{day}#{month}"
     end
     def cal_to_full(cal, gmt_mode=:gmt_584283)
-      "#{cal_to_lc(cal, gmt_mode)} #{cal_to_tzolkin(cal, gmt_mode)} #{cal_to_haab(cal, gmt_mode)} (#{cal.strftime("%Y-%m-%d")})"
+      grd, jld = if cal.julian?
+        [cal.gregorian, cal]
+      else #gregorian
+        [cal, cal.julian]
+      end
+      "#{cal_to_lc(cal, gmt_mode)} #{cal_to_tzolkin(cal, gmt_mode)} #{cal_to_haab(cal, gmt_mode)} #{grd.strftime("%Y-%m-%d")} #{jld.strftime("%Y-%m-%d")}"
     end
     def lc_to_full(lc, gmt_mode=:gmt_584283)
       cal = lc_to_cal(lc, gmt_mode)
