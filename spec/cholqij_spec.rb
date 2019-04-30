@@ -4,11 +4,15 @@ RSpec.describe Cholqij do
   end
 
   describe '.lc_to_cal' do
-    context 'default gmt_mode' do
+    context 'default gmt_mode(gmt_584283)' do
       subject{ described_class.lc_to_cal(lc) }
-      context 'case 1' do
-        let(:lc){ '13.0.0.0.0' }
-        it{ expect(subject).to eql(Date.parse('2012-12-21')) }
+      date_list = YAML.load(File.new(File.expand_path(
+        File.join(__FILE__, '..', '..', 'data', 'historical_date.yml'))))
+      date_list.each.with_index(1) do |dt,idx|
+        context "case #{idx}" do
+          let(:lc){ dt['long_count'] }
+          it{ expect(subject).to eql(Date.parse(dt['modern'])) }
+        end
       end
     end
 

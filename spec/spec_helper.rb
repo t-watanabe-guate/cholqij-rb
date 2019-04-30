@@ -1,4 +1,6 @@
 require "bundler/setup"
+require "pry"
+require "yaml"
 require "cholqij"
 
 RSpec.configure do |config|
