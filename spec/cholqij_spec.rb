@@ -11,7 +11,7 @@ RSpec.describe Cholqij do
       date_list.each.with_index(1) do |dt,idx|
         context "case #{idx}" do
           let(:lc){ dt['long_count'] }
-          it{ expect(subject).to eql(Date.parse(dt['modern'])) }
+          it{ expect(subject).to eql(Date.parse(dt['gregorian'])) }
         end
       end
     end
