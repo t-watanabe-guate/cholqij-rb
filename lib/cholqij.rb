@@ -1,5 +1,6 @@
 require 'date'
 require_relative 'cholqij/version'
+require_relative 'cholqij/yml_output'
 
 class Cholqij
   class Error < StandardError; end
@@ -27,7 +28,7 @@ class Cholqij
   WAYEB_DAYS = (1..5).to_a
   HAAB_BASE_HOSEI  = 347
   HAAB_DAY_COUNT   = 365
-  
+
   class << self
     def lc_to_cal(lc, gmt_mode=:gmt_584283)
       lc_arr = lc.split('.').map(&:to_i)
@@ -62,7 +63,7 @@ class Cholqij
       base = cal.jd - coef(gmt_mode)
       month = TZOLKIN_MONTH[(base + TZOLKIN_MONTH_HOSEI) % TZOLKIN_MONTH.size]
       day   = TZOLKIN_DAY[(base + TZOLKIN_DAY_HOSEI) % TZOLKIN_DAY.size]
-      "#{month}-#{day}"
+      "#{month}#{day}"
     end
     def cal_to_haab(cal, gmt_mode=:gmt_584283)
       base = cal.jd - coef(gmt_mode) + HAAB_BASE_HOSEI
@@ -74,10 +75,15 @@ class Cholqij
         month = HAAB_MONTH[day_position / 20]
         day   = HAAB_DAYS[day_position % 20]
       end
-      "#{day}-#{month}"
+      "#{day}#{month}"
     end
     def cal_to_full(cal, gmt_mode=:gmt_584283)
-      "#{cal_to_lc(cal, gmt_mode)} #{cal_to_tzolkin(cal, gmt_mode)} #{cal_to_haab(cal, gmt_mode)}"
+      grd, jld = if cal.julian?
+        [cal.gregorian, cal]
+      else #gregorian
+        [cal, cal.julian]
+      end
+      "#{cal_to_lc(cal, gmt_mode)} #{cal_to_tzolkin(cal, gmt_mode)} #{cal_to_haab(cal, gmt_mode)} #{grd.strftime("%Y-%m-%d")} #{jld.strftime("%Y-%m-%d")}"
     end
     def lc_to_full(lc, gmt_mode=:gmt_584283)
       cal = lc_to_cal(lc, gmt_mode)
